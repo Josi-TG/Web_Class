@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Lovers Page</title>
+    <style>
+        
+        body {
+            background-color: #f4f4f6;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styling */
+        .header {
+            background-color: #0b4f89;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .header h1 {
+            color: white;
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        /* Banner image */
+        .banner img {
+            width: 100%;
+            height: 450px;
+            display: block;
+        }
+
+        /* Three-column section - using flexbox */
+        .puppy-row {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        /* Making images and missing box appear side by side */
+        .puppy-row img, .missing-box {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .puppy-img {
+            width: 310px;
+            height: 310px;
+        }
+
+        .missing-box {
+            background-color: #E94E5F;
+            width: 310px;
+            height: 310px;
+            text-align: center;
+            line-height: 310px;  /* Vertically centers content */
+        }
+
+        /* Inner content of missing box - needs special centering */
+        .missing-box p {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 1.3;
+            font-size: 42px;
+            font-weight: bold;
+            color: black;
+            margin: 0;
+        }
+
+        /* More Puppies heading */
+        .more-heading {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        .more-heading h2 {
+            font-size: 48px;
+            font-weight: bold;
+            color: black;
+            margin: 0;
+        }
+
+        /* Bottom two puppies section */
+        .bottom-puppies {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 60px;
+        }
+
+        .bottom-puppy-img {
+            width: 460px;
+            height: 535px;
+            margin-left: 37px;
+            margin-right: 37px;
+        }
+
+        /* Footer styling */
+        .footer {
+            background-color: #0b4f89;
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .footer p {
+            color: white;
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Puppy lovers page</h1>
+    </div>
+
+    <!-- Banner image -->
+    <div class="banner">
+        <img src="banner-puppies.jpg" alt="Puppies in basket">
+    </div>
+
+    <!-- puppy-1, missing box, puppy-2 -->
+    <div class="puppy-row">
+        <img src="puppy-1.jpg" alt="White puppy" class="puppy-img">
+        
+        <div class="missing-box">
+            <p>Puppy<br>missing<br>here!!</p>
+        </div>
+        
+        <img src="puppy-2.jpg" alt="Black puppy" class="puppy-img">
+    </div>
+
+    <!-- More Puppies heading -->
+    <div class="more-heading">
+        <h2>More Puppies</h2>
+    </div>
+
+    <!-- Two puppies side by side -->
+    <div class="bottom-puppies">
+        <img src="puppy-3.jpg" alt="Brown puppy" class="bottom-puppy-img">
+        <img src="puppy-4.jpg" alt="White dog" class="bottom-puppy-img">
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Developed by: Yoseph Tigiste</p>
+    </div>
+
+</body>
+</html>
