@@ -19,6 +19,9 @@ body {
     color: white;
     font-weight: 200;
     font-size: 0.75em;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 
 }
 
@@ -235,6 +238,10 @@ body {
     font-size: 0.85em;
 }
 
+.second-highlight-wrapper ul li a:hover {
+    color: #fff;
+}
+
 /* Third Highlight Section*/
 
 .third-highlight-wrapper {
@@ -309,6 +316,10 @@ body {
     background-size: initial;
     background-color: #000;
     background-position: bottom;
+}
+
+.fifth-highlight-wrapper .right-side-wrapper ul li a:hover {
+    color: #fff;
 }
 
 .logo-wrapper {
