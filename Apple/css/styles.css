@@ -29,6 +29,7 @@ body {
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
+    align-items: center;
 }
 
 .internal-wrapper {
@@ -57,7 +58,9 @@ body {
     opacity: 1;
 }
 .logo-link, .search-link, .cart-link {
+    justify-content: center;
     width: 18px;
+    height: 18px;
     display: block;
 }
 
@@ -262,7 +265,7 @@ body {
     background: #fff;
 }
 
-.left-side-wrapper, .right-side-wrapper {
+.left-side-wrapper {
     height: 580px;
     width: 48.5%;
     background-position: center;
