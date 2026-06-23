@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AFC Bournemouth</title>
+  <link rel="icon" href="../IMAGES/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/variables.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/navbar.css" />
+  <link rel="stylesheet" href="styles/slideshow.css" />
+  <link rel="stylesheet" href="styles/news-cards.css" />
+  <link rel="stylesheet" href="styles/sponsor-banner.css" />
+  <link rel="stylesheet" href="styles/news-grid.css" />
+  <link rel="stylesheet" href="styles/hospitality-section.css" />
+  <link rel="stylesheet" href="styles/video-section.css" />
+  <link rel="stylesheet" href="styles/shop-section.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <!-- Desktop Logo (hidden on mobile) -->
+    <a href="index.html" class="navbar__logo-desktop">
+      <img src="../IMAGES/favicon.png" alt="AFC Bournemouth crest" />
+    </a>
+
+    <div class="navbar__main">
+      <!-- Top Utility Bar (Red) -->
+      <div class="navbar__utility">
+        <div class="navbar__utility-content">
+          <nav class="navbar__utility-nav">
+            <a href="#" class="navbar__utility-link navbar__utility-link--active">
+              <p>AFCB.CO.UK</p>
+            </a>
+            <a href="https://tickets.afcb.co.uk/" class="navbar__utility-link" target="_blank">
+              <img src="https://www.afcb.co.uk/gc-icons/fan/ticket.svg" width="14" height="14" alt="" 
+                   style="filter: brightness(0) invert(1);" />
+              <p>TICKETS</p>
+            </a>
+            <a href="https://superstore.afcb.co.uk/" class="navbar__utility-link" target="_blank">
+              <img src="https://www.afcb.co.uk/gc-icons/fan/store.svg" width="14" height="14" alt="" 
+                   style="filter: brightness(0) invert(1);" />
+              <p>STORE</p>
+            </a>
+            <a href="/hospitality" class="navbar__utility-link">
+              <img src="https://www.afcb.co.uk/gc-icons/fan/hospitality.svg" width="14" height="14" alt="" 
+                   style="filter: brightness(0) invert(1);" />
+              <p>HOSPITALITY</p>
+            </a>
+          </nav>
+        </div>
+        <a href="#" class="navbar__login">
+          <img src="../IMAGES/navbar/account.svg" alt="Log In" />
+          <span>LOG IN</span>
+        </a>
+      </div>
+
+      <!-- Bottom Nav Bar -->
+      <div class="navbar__bottom">
+        <div class="navbar__bottom-inner">
+          <div class="navbar__bottom-content">
+            <!-- Mobile Logo -->
+            <a href="index.html" class="navbar__logo-mobile">
+              <img src="../IMAGES/favicon.png" alt="AFC Bournemouth" />
+            </a>
+
+            <!-- Main Navigation Links -->
+            <div class="navbar__nav-container">
+              <nav class="navbar__nav">
+                <ul class="navbar__nav-list">
+                  <li><a href="#" class="navbar__nav-link">NEWS</a></li>
+                  <li><a href="#" class="navbar__nav-link">TEAMS</a></li>
+                  <li><a href="#" class="navbar__nav-link">FIXTURES</a></li>
+                  <li><a href="#" class="navbar__nav-link">TICKETS</a></li>
+                  <li><a href="#" class="navbar__nav-link">COMMERCIAL</a></li>
+                  <li><a href="#" class="navbar__nav-link">AFCBTV</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <!-- Actions (Events, Search, Menu) -->
+            <div class="navbar__actions">
+              <div class="navbar__events-wrap">
+                <a href="#" class="navbar__events">
+                  <img src="../IMAGES/navbar/events.png" alt="Events" />
+                </a>
+                
+              </div>
+              <a href="#" class="navbar__icon">
+                <img src="../IMAGES/navbar/search.svg" alt="Search" />
+              </a>
+              <a href="#" class="navbar__icon navbar__icon--menu">
+                <img src="../IMAGES/navbar/menu.svg" alt="Menu" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Slideshow -->
+  <section class="hero-slideshow">
+    <div class="hero-slideshow__track">
+      <div class="hero-slideshow__slide">
+        <img src="../IMAGES/top_grid/bootroom.webp" alt="AFC Bournemouth Boot Room" />
+        <div class="hero-slideshow__content">
+          <h2 class="hero-slideshow__title">Inside Boot Room</h2>
+          <p class="hero-slideshow__description">Go behind the scenes at AFC Bournemouth's training facilities</p>
+        </div>
+      </div>
+      <div class="hero-slideshow__slide">
+        <img src="../IMAGES/top_grid/scott.webp" alt="Scott" />
+        <div class="hero-slideshow__content">
+          <h2 class="hero-slideshow__title">Adams plays 90 minutes as usa get of to winning world cup</h2>
+          <p class="hero-slideshow__description">Go behind the scenes at AFC Bournemouth's training facilities</p>
+        </div>
+      </div>
+      <div class="hero-slideshow__slide">
+        <img src="../IMAGES/top_grid/gannok.webp" alt="Gannok Doak" />
+        <div class="hero-slideshow__content">
+          <h2 class="hero-slideshow__title">Gannok Doak makes history as scotland starts worldcup campaign with win</h2>
+          <p class="hero-slideshow__description">First Team | 1 day ago</p>
+        </div>
+      </div>
+      <div class="hero-slideshow__slide">
+        <img src="../IMAGES/top_grid/ritchie_interview.webp" alt="Ritchie Interview" />
+        <div class="hero-slideshow__content">
+          <h2 class="hero-slideshow__title">Exclusive Interview</h2>
+          <p class="hero-slideshow__description">Hear from the players and coaching staff on the latest news</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsor Banner -->
+  <section class="sponsor-banner">
+    <div class="sponsor-banner__wrapper">
+      <a href="https://www.express-hire.co.uk" target="_blank" rel="noopener" class="sponsor-banner__link">
+        <img
+          src="https://images.gc.afcbournemouthservices.co.uk/fit-in/1600x1600/6b30a4d0-355f-11ef-b626-11fb0558c9c6.png"
+          alt="Express Hire" class="sponsor-banner__image" />
+      </a>
+    </div>
+  </section>
+
+
+
+  <!-- News Grid Section -->
+  <section class="news-section">
+    <div class="news-section__bg">
+      <img
+        src="https://images.gc.afcbournemouthservices.co.uk/fit-in/3600x3600/1d9180f0-f610-11f0-bed1-4953b3d9e201.webp"
+        alt="" />
+    </div>
+    <div class="news-section__container">
+      <header class="news-section__header">
+        <h2 class="news-section__title">AFC Bournemouth News</h2>
+        <nav class="news-tabs">
+          <div class="news-tabs__track" aria-live="polite" aria-atomic="true">
+            <ul class="news-tabs__list" role="presentation">
+              <li class="news-tabs__slide" role="group" aria-roledescription="slide" aria-label="1 of 5">
+                <button class="news-tabs__item news-tabs__item--active" aria-label="Tab LATEST" aria-selected="true"
+                  role="tab">
+                  <span>LATEST</span>
+                </button>
+              </li>
+              <li class="news-tabs__slide" role="group" aria-roledescription="slide" aria-label="2 of 5">
+                <button class="news-tabs__item" aria-label="Tab FIRST TEAM" aria-selected="false" role="tab">
+                  <span>FIRST TEAM</span>
+                </button>
+              </li>
+              <li class="news-tabs__slide" role="group" aria-roledescription="slide" aria-label="3 of 5">
+                <button class="news-tabs__item" aria-label="Tab CLUB" aria-selected="false" role="tab">
+                  <span>CLUB</span>
+                </button>
+              </li>
+              <li class="news-tabs__slide" role="group" aria-roledescription="slide" aria-label="4 of 5">
+                <button class="news-tabs__item" aria-label="Tab TICKETS" aria-selected="false" role="tab">
+                  <span>TICKETS</span>
+                </button>
+              </li>
+              <li class="news-tabs__slide" role="group" aria-roledescription="slide" aria-label="5 of 5">
+                <button class="news-tabs__item" aria-label="Tab WOMEN" aria-selected="false" role="tab">
+                  <span>WOMEN</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div class="news-grid">
+        <!-- Card 1 - Large -->
+        <a href="/news/2026/june/14/gannon-doak-makes-history-as-scotland-start-world-cup-campaign-with-win/"
+          class="news-card news-card--large">
+          <div class="news-card__image-wrap">
+            <img
+              src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/db8d3470-678d-11f1-a761-63d7b6f72088.webp"
+              alt="Gannon-Doak makes history as Scotland start World Cup campaign with win" class="news-card__image" />
+            <div class="news-card__gradient"></div>
+          </div>
+          <div class="news-card__content">
+            <h3 class="news-card__title">Gannon-Doak makes history as Scotland start World Cup campaign with win</h3>
+            <div class="news-card__meta">
+              <span class="news-card__category">First Team |</span>
+              <span class="news-card__time">2 hours ago</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 2 - Medium -->
+        <a href="/news/2026/june/13/ryan-christie-q-a-after-signing-new-deal/" class="news-card news-card--medium">
+          <div class="news-card__image-wrap">
+            <img
+              src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/030a2460-664c-11f1-8c56-2595659d4d9e.webp"
+              alt="Ryan Christie: Special Q&A after signing new contract" class="news-card__image" />
+            <div class="news-card__gradient"></div>
+          </div>
+          <div class="news-card__content">
+            <h3 class="news-card__title">Ryan Christie: Special Q&A after signing new contract</h3>
+            <div class="news-card__meta">
+              <span class="news-card__category">First Team |</span>
+              <span class="news-card__time">21 hours ago</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 3 - Medium -->
+        <a href="/news/2026/june/13/christie-commits-to-cherries-with-new-contract--/"
+          class="news-card news-card--medium">
+          <div class="news-card__image-wrap">
+            <img
+              src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/41081d90-670e-11f1-85fc-bfdc96bb262a.webp"
+              alt="Christie commits to Cherries with new contract" class="news-card__image" />
+            <div class="news-card__gradient"></div>
+          </div>
+          <div class="news-card__content">
+            <h3 class="news-card__title">Christie commits to Cherries with new contract</h3>
+            <div class="news-card__meta">
+              <span class="news-card__category">First Team |</span>
+              <span class="news-card__time">21 hours ago</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 4 - Medium -->
+        <a href="/news/2026/june/13/adams-plays-90-minutes-as-usa-get-off-to-winning-world-cup-start/"
+          class="news-card news-card--medium">
+          <div class="news-card__image-wrap">
+            <img
+              src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/4afbdfc0-66c4-11f1-97a4-dd502b2da76f.webp"
+              alt="Adams plays 90 minutes as USA get off to winning World Cup start" class="news-card__image" />
+            <div class="news-card__gradient"></div>
+          </div>
+          <div class="news-card__content">
+            <h3 class="news-card__title">Adams plays 90 minutes as USA get off to winning World Cup start</h3>
+            <div class="news-card__meta">
+              <span class="news-card__category">First Team |</span>
+              <span class="news-card__time">1 day ago</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 5 - Medium -->
+        <a href="/news/2026/june/12/club-partners-with-bournemouth-hospital-to-gift-every-newborn-a-cherries-sleepsuit/"
+          class="news-card news-card--medium">
+          <div class="news-card__image-wrap">
+            <img
+              src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/42de4e10-64a6-11f1-9de4-a93f4dbf73eb.webp"
+              alt="Club partners with Bournemouth Hospital to gift every newborn a Cherries sleepsuit"
+              class="news-card__image" />
+            <div class="news-card__gradient"></div>
+          </div>
+          <div class="news-card__content">
+            <h3 class="news-card__title">Club partners with Bournemouth Hospital to gift every newborn a Cherries
+              sleepsuit</h3>
+            <div class="news-card__meta">
+              <span class="news-card__category">Club News |</span>
+              <span class="news-card__time">1 day ago</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <footer class="news-section__footer">
+        <a href="https://www.afcb.co.uk/news" rel="noopener noreferrer" class="news-section__more-btn">
+          <div class="news-section__more-btn-inner">
+            <span class="news-section__more-btn-text">MORE NEWS</span>
+          </div>
+        </a>
+      </footer>
+    </div>
+  </section>
+
+  <!-- Hospitality Section -->
+  <section class="hospitality-section">
+    <div class="hospitality-section__container">
+      <h2 class="hospitality-section__title">Introducing New Levels of Hospitality</h2>
+
+      <!-- Video Row -->
+      <div class="hospitality-video-row">
+        <div class="hospitality-video-row__video">
+          <div class="hospitality-video-row__embed">
+            <iframe
+              src="https://player.vimeo.com/video/1174692963?autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0&badge=0&controls=0"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" title="Club 1899"></iframe>
+          </div>
+        </div>
+        <div class="hospitality-video-row__content">
+          <div class="hospitality-video-row__text">
+            <p><strong>CLUB 1899 - EXPERIENCE HOSPITALITY AT ITS FINEST</strong></p>
+            <p>Launching in the 2026/27 season as part of the stadium redevelopment, Club 1899 combines exceptional à la
+              carte dining, an elegantly designed restaurant setting, and premium halfway-line seating - offering a more
+              refined, thoughtfully curated matchday experience from arrival to the final whistle.</p>
+          </div>
+          <a href="/hospitality/club-1899" class="btn-secondary">
+            <div class="btn-secondary__inner">
+              <span class="btn-secondary__text">FIND OUT MORE</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Image Grid 1 -->
+      <div class="hospitality-image-grid">
+        <img
+          src="https://images.gc.afcbournemouthservices.co.uk/fit-in/1600x1600/58184000-4a1c-11f1-93bc-61b3f22e7d0b.jpg"
+          alt="" class="hospitality-image-grid__item" />
+        <img
+          src="https://images.gc.afcbournemouthservices.co.uk/fit-in/1600x1600/4cf413c0-4a1c-11f1-93bc-61b3f22e7d0b.png"
+          alt="" class="hospitality-image-grid__item" />
+        <img
+          src="https://images.gc.afcbournemouthservices.co.uk/fit-in/1600x1600/527b5470-4a1c-11f1-93bc-61b3f22e7d0b.png"
+          alt="" class="hospitality-image-grid__item" />
+        <img
+          src="https://images.gc.afcbournemouthservices.co.uk/fit-in/1600x1600/53e0fef0-4a1c-11f1-93bc-61b3f22e7d0b.png"
+          alt="" class="hospitality-image-grid__item" />
+      </div>
+
+      <!-- Register Button -->
+      <div class="hospitality-register">
+        <a href="/hospitality/seasonal-hospitality" class="btn-secondary">
+          <div class="btn-secondary__inner">
+            <span class="btn-secondary__text">REGISTER YOUR INTEREST</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Promo Cards -->
+      <div class="hospitality-promo-grid">
+        <a href="/hospitality/the-gallery" class="hospitality-promo-card">
+          <div class="hospitality-promo-card__image-wrap">
+            <img
+              src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/74c7f680-494c-11f1-ac39-4f3946b6bcd6.webp"
+              alt="" class="hospitality-promo-card__image" />
+          </div>
+          <div class="hospitality-promo-card__content">
+            <div class="hospitality-promo-card__actions">
+              <span class="btn-secondary btn-secondary--small">
+                <span class="btn-secondary__inner">
+                  <span class="btn-secondary__text">FIND OUT MORE</span>
+                </span>
+              </span>
+            </div>
+          </div>
+        </a>
+        <a href="/hospitality/the-orchard" class="hospitality-promo-card">
+          <div class="hospitality-promo-card__image-wrap">
+            <img
+              src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/f73b2bb0-485b-11f1-87f8-09294604209a.webp"
+              alt="" class="hospitality-promo-card__image" />
+          </div>
+          <div class="hospitality-promo-card__content">
+            <div class="hospitality-promo-card__actions">
+              <span class="btn-secondary btn-secondary--small">
+                <span class="btn-secondary__inner">
+                  <span class="btn-secondary__text">FIND OUT MORE</span>
+                </span>
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Image Grid 2 -->
+      <div class="hospitality-image-grid">
+        <img
+          src="https://images.gc.afcbournemouthservices.co.uk/fit-in/1600x1600/4287c800-1957-11f1-9a54-7ba10cb82cd8.jpg"
+          alt="" class="hospitality-image-grid__item" />
+        <img
+          src="https://images.gc.afcbournemouthservices.co.uk/fit-in/1600x1600/42b3ba00-1957-11f1-bed2-7756b761db3f.jpg"
+          alt="" class="hospitality-image-grid__item" />
+        <img
+          src="https://images.gc.afcbournemouthservices.co.uk/fit-in/1600x1600/1341d9e0-457c-11f1-87f6-6f109be1ea89.jpg"
+          alt="" class="hospitality-image-grid__item" />
+        <img
+          src="https://images.gc.afcbournemouthservices.co.uk/fit-in/1600x1600/bc030f90-4865-11f1-b9b9-87f03341a639.png"
+          alt="" class="hospitality-image-grid__item" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Watch Now Video Section -->
+  <section class="video-section">
+    <div class="video-section__bg">
+      <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x2400/1d9180f0-f610-11f0-bed1-4953b3d9e201.webp" 
+           alt="" />
+    </div>
+    <div class="video-section__container">
+      <header class="video-section__header">
+        <h2 class="video-section__title">Watch Now - AFC Bournemouth's Boot Room</h2>
+      </header>
+      <div class="video-section__content">
+        <div class="video-section__grid">
+          <!-- Video Card 1 -->
+          <a href="https://www.afcb.co.uk/videos/e26c750a-09de-48b6-be43-1fe9439a78f7" 
+             rel="noopener noreferrer" 
+             class="video-card">
+            <div class="video-card__image-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/d4f03a70-0cea-11f1-96f7-5520cc78848c.webp" 
+                   alt="Video" 
+                   class="video-card__image" />
+            </div>
+            <div class="video-card__content">
+              <div class="video-card__actions">
+                <span class="btn-watch">
+                  <span class="btn-watch__inner">
+                    <span class="btn-watch__text">WATCH NOW</span>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </a>
+          
+          <!-- Video Card 2 -->
+          <a href="https://www.afcb.co.uk/videos/6b25061e-50fc-4e77-bb4f-e0bade3f8a33" 
+             rel="noopener noreferrer" 
+             class="video-card">
+            <div class="video-card__image-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/d4ed5440-0cea-11f1-929a-9f227c8066b5.webp" 
+                   alt="Video" 
+                   class="video-card__image" />
+            </div>
+            <div class="video-card__content">
+              <div class="video-card__actions">
+                <span class="btn-watch">
+                  <span class="btn-watch__inner">
+                    <span class="btn-watch__text">WATCH NOW</span>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop Now Section -->
+  <section class="shop-section">
+    <div class="shop-section__bg">
+      <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/4800x4800/1d9180f0-f610-11f0-bed1-4953b3d9e201.webp" 
+           alt="" />
+    </div>
+    <div class="shop-section__container">
+      <header class="shop-section__header">
+        <h2 class="shop-section__title">Shop Now</h2>
+      </header>
+      
+      <div class="shop-section__content">
+        <!-- Product Grid -->
+        <div class="shop-product-grid">
+          <!-- Product 1: Home Kit -->
+          <a href="https://superstore.afcb.co.uk/afc-bournemouth/home-kit-8" 
+             target="_blank" 
+             class="product-card">
+            <div class="product-card__image-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/aa413dd0-616c-11f0-9fc0-39670193717b.webp" 
+                   alt="25/26 HOME KIT" 
+                   class="product-card__image" />
+            </div>
+            <div class="product-card__info">
+              <div class="product-card__details">
+                <div class="product-card__name">25/26 HOME KIT</div>
+                <div class="product-card__price-wrap">
+                  <span class="product-card__price">£65</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 2: Away Kit -->
+          <a href="https://superstore.afcb.co.uk/afc-bournemouth/away-kit-9" 
+             target="_blank" 
+             class="product-card">
+            <div class="product-card__image-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/2453e350-6ca0-11f0-a5aa-338c457b54b3.webp" 
+                   alt="25/26 AWAY KIT" 
+                   class="product-card__image" />
+            </div>
+            <div class="product-card__info">
+              <div class="product-card__details">
+                <div class="product-card__name">25/26 AWAY KIT</div>
+                <div class="product-card__price-wrap">
+                  <span class="product-card__price">£65</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 3: Third Kit -->
+          <a href="https://superstore.afcb.co.uk/afc-bournemouth/third-kit-10" 
+             target="_blank" 
+             class="product-card">
+            <div class="product-card__image-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/f44dce20-76c5-11f0-8c3d-7f49c5ea807d.webp" 
+                   alt="25/26 THIRD KIT" 
+                   class="product-card__image" />
+            </div>
+            <div class="product-card__info">
+              <div class="product-card__details">
+                <div class="product-card__name">25/26 THIRD KIT</div>
+                <div class="product-card__price-wrap">
+                  <span class="product-card__price">£65</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Promo Grid -->
+        <div class="shop-promo-grid">
+          <!-- Promo 1 -->
+          <a href="https://superstore.afcb.co.uk/afc-bournemouth/spring-fashion-all" 
+             target="_blank" 
+             class="promo-card">
+            <div class="promo-card__image-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/3a012ff0-34b4-11f1-ae5b-6dbfd01e2812.webp" 
+                   alt="Spring Fashion" 
+                   class="promo-card__image" />
+            </div>
+            <div class="promo-card__content">
+              <div class="promo-card__actions"></div>
+            </div>
+          </a>
+
+          <!-- Promo 2 -->
+          <a href="https://superstore.afcb.co.uk/afc-bournemouth/VARNFLJSY" 
+             target="_blank" 
+             class="promo-card">
+            <div class="promo-card__image-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/a0a34650-13fb-11f1-a2fb-edae44995598.gif" 
+                   alt="Product" 
+                   class="promo-card__image" />
+              <div class="promo-card__gradient"></div>
+            </div>
+            <div class="promo-card__content">
+              <div class="promo-card__actions"></div>
+            </div>
+          </a>
+
+          <!-- Promo 3 -->
+          <a href="https://superstore.afcb.co.uk/afc-bournemouth/new-era-headwear" 
+             target="_blank" 
+             class="promo-card">
+            <div class="promo-card__image-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/2e9e98d0-2787-11f1-931c-a5ddbed6d62c.webp" 
+                   alt="New Era Headwear" 
+                   class="promo-card__image" />
+            </div>
+            <div class="promo-card__content">
+              <div class="promo-card__actions"></div>
+            </div>
+          </a>
+
+          <!-- Promo 4 -->
+          <a href="https://superstore.afcb.co.uk/afc-bournemouth/peppa-pig" 
+             target="_blank" 
+             class="promo-card">
+            <div class="promo-card__image-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/2400x1350/a583a0e0-b8af-11f0-bfb0-f7fadd8bfbe5.gif" 
+                   alt="Peppa Pig" 
+                   class="promo-card__image" />
+            </div>
+            <div class="promo-card__content">
+              <div class="promo-card__actions"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- Logo Divider -->
+    <div class="footer__logo-divider">
+      <div class="footer__logo-divider-container">
+        <div class="footer__logo-divider-content">
+          <div class="footer__divider-line"></div>
+          <div class="footer__logo-wrap">
+            <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/600x600/e430db60-34ca-11ef-a088-db17c0a14148.png" 
+                 alt="AFC Bournemouth" 
+                 class="footer__logo-image" />
+          </div>
+          <div class="footer__divider-line"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Partners -->
+    <div class="footer__partners">
+      <!-- Principal Partners -->
+      <div class="footer__partner-group">
+        <h5 class="footer__partner-title">Principal Partners</h5>
+        <div class="footer__partner-logos">
+          <a href="#" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/3616c950-72b7-11f0-bd16-b5ee41a0837b.webp" 
+                   alt="Partner" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="#" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/42a15e30-48ef-11ef-95f1-2b5fbec9ecc3.webp" 
+                   alt="Partner" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="https://www.vitality.co.uk/?utm_source=bournemouthfc&utm_medium=website&utm_campaign=bournemouthfc&utm_term=bournemouthfcweb" 
+             target="_blank" 
+             rel="sponsored" 
+             class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/e452b7a0-37b1-11ef-b75e-47e81f93c171.webp" 
+                   alt="Vitality" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="#" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/3616c950-72b7-11f0-bd16-b5ee41a0837b.webp" 
+                   alt="Partner" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Official Partners -->
+      <div class="footer__partner-group">
+        <h5 class="footer__partner-title">Official Partners</h5>
+        <div class="footer__partner-logos">
+          <a href="#" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/e457e7c0-37b1-11ef-9448-5d5e72c866b1.webp" 
+                   alt="Partner" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="https://www.bournemouth.ac.uk/" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/ee387ab0-1eec-11f1-a9b7-eb9fe7f8b71d.webp" 
+                   alt="Bournemouth University" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="https://football.comave.com/extend/bournemouth" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/550c6810-392e-11ef-a718-abe461dd24c3.webp" 
+                   alt="Comave" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="https://www.eset.com" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/ec7748d0-946a-11f0-9acd-238c09889aa6.webp" 
+                   alt="ESET" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="https://www.hummel.net/" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/997a11d0-5daf-11f1-9376-1f82812cfcae.webp" 
+                   alt="Hummel" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="https://www.lvcva.com/" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/e4526980-37b1-11ef-aa05-2127f02509a1.webp" 
+                   alt="Las Vegas" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Additional Partners -->
+      <div class="footer__partner-group">
+        <div class="footer__partner-logos">
+          <a href="https://leosdevelopments.com/" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/7e202f60-3f65-11ef-9d79-975c40dc17b8.webp" 
+                   alt="Leo's" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="https://www.monsterenergy.com/en-gb/" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/7f881d80-9465-11f0-ae28-8736858584d1.webp" 
+                   alt="Monster Energy" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="https://no.co" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/62eb4680-790c-11f0-a846-f5463342b17b.webp" 
+                   alt="NO.CO" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="https://renaissanceaf.com" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/462eb790-72b1-11f0-a8d2-03edb27632bd.webp" 
+                   alt="Renaissance" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="https://afcbournemouth.getsbk.com/" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/f2508b80-6261-11f0-a522-bd1832d6bbb6.webp" 
+                   alt="SBK" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+          <a href="https://utilita.co.uk" target="_blank" rel="sponsored" class="footer__partner-link">
+            <div class="footer__partner-logo-wrap">
+              <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/256x192/558e1b30-392e-11ef-8042-1d849e339a7a.webp" 
+                   alt="Utilita" 
+                   class="footer__partner-logo" />
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Tagline -->
+      <div class="footer__partner-group">
+        <h2 class="footer__tagline">Together Anything Is Possible</h2>
+      </div>
+    </div>
+
+    <!-- Social & Links -->
+    <div class="footer__bottom">
+      <!-- Social Media -->
+      <div class="footer__social">
+        <a href="https://www.tiktok.com/@afcb" target="_blank" title="TikTok" class="footer__social-link">
+          <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/48x48/cfca2670-28dd-11ef-a336-e1aac203cbd4.png" 
+               alt="TikTok" 
+               class="footer__social-icon" />
+        </a>
+        <a href="https://www.instagram.com/afcb/?hl=en" target="_blank" title="Instagram" class="footer__social-link">
+          <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/48x48/cfc655e0-28dd-11ef-9331-41536adf87af.png" 
+               alt="Instagram" 
+               class="footer__social-icon" />
+        </a>
+        <a href="https://www.facebook.com/afcb/" target="_blank" title="Facebook" class="footer__social-link">
+          <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/48x48/cfbce000-28dd-11ef-a40a-3762df2a62c1.png" 
+               alt="Facebook" 
+               class="footer__social-icon" />
+        </a>
+        <a href="https://x.com/afcbournemouth" target="_blank" title="Twitter/X" class="footer__social-link">
+          <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/48x48/cfc23730-28dd-11ef-b6be-73686e857f7c.png" 
+               alt="Twitter" 
+               class="footer__social-icon" />
+        </a>
+        <a href="https://www.youtube.com/user/officiacherries" target="_blank" title="YouTube" class="footer__social-link">
+          <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/48x48/cfc25e40-28dd-11ef-b739-d1d98efabf2a.png" 
+               alt="YouTube" 
+               class="footer__social-icon" />
+        </a>
+        <a href="https://www.linkedin.com/company/afc-bournemouth" target="_blank" title="LinkedIn" class="footer__social-link">
+          <img src="https://images.gc.afcbournemouthservices.co.uk/fit-in/48x48/cfc0d7a0-28dd-11ef-ad0d-69d2f20137cc.png" 
+               alt="LinkedIn" 
+               class="footer__social-icon" />
+        </a>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="footer__links-wrapper">
+        <div class="footer__links">
+          <a href="/accessibility" class="footer__link" title="Accessibility">Accessibility</a>
+          <a href="https://careers.afcb.co.uk/" class="footer__link" rel="noopener noreferrer" title="Careers">Careers</a>
+          <a href="/club/company-information" class="footer__link" title="Company Information">Company Information</a>
+          <a href="/club/contact-us" class="footer__link" title="Contact Us">Contact Us</a>
+          <a href="https://images.gc.afcbournemouthservices.co.uk/438037b0-8493-11ef-87d7-e7b64c5736d9.pdf" 
+             class="footer__link" 
+             rel="noopener noreferrer" 
+             title="Disabled Access Guide">Disabled Access Guide</a>
+          <a href="https://r1.dotdigital-pages.com/p/47ot-sa0/newsletter-sign-upv2?pfredir=1" 
+             class="footer__link" 
+             rel="noopener noreferrer" 
+             target="_blank" 
+             title="Sign Up To Our Newsletter">Sign Up To Our Newsletter</a>
+        </div>
+        <div class="footer__links">
+          <a href="/club/club-policies" class="footer__link" title="Club Policies">Club Policies</a>
+          <a href="/cookie-policy" class="footer__link" title="Cookie Policy">Cookie Policy</a>
+          <a href="https://www.foleyentertainmentgroup.com" 
+             class="footer__link" 
+             rel="noopener noreferrer" 
+             target="_blank" 
+             title="Foley Entertainment Group">Foley Entertainment Group</a>
+          <a href="https://www.foleyentertainmentgroup.com/privacy-policy/" 
+             class="footer__link" 
+             rel="noopener noreferrer" 
+             target="_blank" 
+             title="Privacy Notice">Privacy Notice</a>
+          <a href="/club/safeguarding" class="footer__link" title="Safeguarding">Safeguarding</a>
+          <a href="https://www.foleyentertainmentgroup.com/terms-of-use/" 
+             class="footer__link" 
+             rel="noopener noreferrer" 
+             target="_blank" 
+             title="Terms Of Use">Terms Of Use</a>
+        </div>
+        <p class="footer__copyright">© AFC Bournemouth 2025</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
